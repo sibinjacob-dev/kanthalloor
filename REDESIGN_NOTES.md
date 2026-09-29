@@ -14,6 +14,8 @@
 - Replaced remote placeholder imagery with existing local assets or text-first layouts.
 - Added a native `details` mobile menu, skip link, visible focus states, semantic landmarks, descriptive alt text, and reduced-motion support.
 - Added intrinsic image dimensions, lazy loading for below-the-fold images, eager hero loading, and no JavaScript or web-font requests.
+- Replaced low-resolution and generic imagery with location-specific Creative Commons photographs of Kanthalloor, the Marayoor–Kanthalloor hills, and Lakkam Falls; full credits are in `photo-credits.html`.
+- Added a lightweight floating WhatsApp action using the locally hosted Font Awesome Free WhatsApp brand icon. Its current `9194596258` destination is explicitly temporary and must be replaced with a complete verified number.
 - Added a canonical URL, meta description, Open Graph and X metadata, `TouristDestination` structured data, `robots.txt`, and `sitemap.xml`.
 
 ## Files changed
@@ -23,6 +25,7 @@
 - `README.md`
 - `robots.txt`
 - `sitemap.xml`
+- `photo-credits.html`
 
 No dependencies were added or removed.
 
@@ -30,8 +33,8 @@ No dependencies were added or removed.
 
 - Confirm whether `+91 94596258` is complete. It is displayed as provided but intentionally not linked as a call or WhatsApp action.
 - Confirm the canonical production hostname and that it resolves with HTTPS before launch.
-- Confirm the ownership, accuracy, and suitability of all supplied photographs; several are low resolution.
-- Confirm whether the names `Marayoor Vibes`, `KeralaVibes`, and `Kanthalloor Tourist Guide` should be unified under one business name.
-- Confirm that `bookings@MarayoorVibes.com` is the intended contact address.
+- Confirm the ownership, accuracy, and suitability of the remaining supplied photograph used for the jeep safari section.
+- Production URLs, footer identity, and contact email now consistently use `kanthalloortouristguide.com` / Kanthalloor Tourist Guide.
+- Confirm that `bookings@kanthalloortouristguide.com` has been created and can receive messages before launch.
 - Add verified map/directions links only when an exact location is supplied.
 - Replace the social image with a purpose-made, non-generated brand asset when available.

@@ -483,6 +483,37 @@ h3 {
     background: var(--paper);
 }
 
+.whatsapp-float {
+    position: fixed;
+    right: max(1rem, env(safe-area-inset-right));
+    bottom: max(1rem, env(safe-area-inset-bottom));
+    z-index: 45;
+    min-height: 3.25rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.55rem 1rem 0.55rem 0.6rem;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 999px;
+    background: #167c42;
+    box-shadow: 0 0.5rem 1.5rem rgba(24, 52, 41, 0.24);
+    color: var(--white);
+    font-size: 0.9rem;
+    font-weight: 750;
+    text-decoration: none;
+}
+
+.whatsapp-mark {
+    width: 1.75rem;
+    height: 2rem;
+    flex: 0 0 auto;
+    filter: brightness(0) invert(1);
+}
+
+.whatsapp-float:hover {
+    background: #116b37;
+}
+
 .footer-inner {
     display: grid;
     gap: 1.5rem;
@@ -515,6 +546,74 @@ h3 {
     font-weight: 650;
 }
 
+.credits-back {
+    min-height: 2.75rem;
+    display: inline-flex;
+    align-items: center;
+    color: var(--forest-dark);
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.credits-page {
+    min-height: 70vh;
+    padding: 4rem 0 6rem;
+}
+
+.credits-shell {
+    width: min(calc(100% - 2rem), 48rem);
+    margin-inline: auto;
+}
+
+.credits-page h1 {
+    margin-bottom: 1rem;
+    color: var(--forest-dark);
+}
+
+.credits-intro {
+    max-width: 42rem;
+    margin-bottom: 2.5rem;
+    color: var(--muted);
+    font-size: 1.05rem;
+}
+
+.credits-list {
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid var(--line);
+    list-style: none;
+}
+
+.credits-list li {
+    display: grid;
+    gap: 0.35rem;
+    padding: 1.25rem 0;
+    border-bottom: 1px solid var(--line);
+}
+
+.credits-list strong {
+    font-family: var(--serif);
+    font-size: 1.15rem;
+}
+
+.credits-list span {
+    color: var(--muted);
+    font-size: 0.92rem;
+}
+
+.credits-list > li > a {
+    width: fit-content;
+    color: var(--forest);
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.credits-subheading {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 1.65rem;
+}
+
 @media (min-width: 42rem) {
     .content-shell,
     .header-inner,
@@ -544,11 +643,15 @@ h3 {
     }
 
     .place-card-featured {
+        display: grid;
+        grid-template-rows: minmax(0, 1fr) auto;
         grid-row: span 2;
     }
 
     .place-card-featured img {
-        aspect-ratio: 4 / 3;
+        height: 100%;
+        min-height: 26rem;
+        aspect-ratio: auto;
     }
 
     .stay-list {

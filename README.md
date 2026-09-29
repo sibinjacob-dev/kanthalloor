@@ -7,6 +7,7 @@ A fast, dependency-free tourism website for Kanthalloor and Marayoor, Kerala.
 ```text
 .
 |-- index.html
+|-- photo-credits.html
 |-- robots.txt
 |-- sitemap.xml
 |-- REDESIGN_NOTES.md
@@ -29,3 +30,4 @@ No build step is required.
 - Shared styles live in `assets/css/`.
 - Local image assets live in `assets/images/`.
 - Use relative paths so the site works locally and on static hosting.
+- Keep third-party image attribution current in `photo-credits.html`.
