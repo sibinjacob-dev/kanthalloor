@@ -1,8 +1,17 @@
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+const mobileMenu = document.querySelector(".mobile-menu");
+
+mobileMenu?.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+        mobileMenu.removeAttribute("open");
+    });
+});
 
 if (!reducedMotion.matches) {
     const revealGroups = [
         ".intro-grid > *",
+        ".nature-gallery-heading",
+        ".nature-gallery-grid > *",
         ".section-heading > *",
         ".place-grid > *",
         ".experience-layout > *",
