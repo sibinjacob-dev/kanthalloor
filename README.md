@@ -1,12 +1,15 @@
-# Kanthalloor Tourism Website
+# Kanthalloor Tourist Guide
 
-A static tourism website for Kanthalloor and Marayoor, Kerala.
+A fast, dependency-free tourism website for Kanthalloor and Marayoor, Kerala.
 
 ## Project structure
 
 ```text
 .
 |-- index.html
+|-- robots.txt
+|-- sitemap.xml
+|-- REDESIGN_NOTES.md
 |-- assets/
 |   |-- css/
 |   |   `-- styles.css
@@ -17,6 +20,8 @@ A static tourism website for Kanthalloor and Marayoor, Kerala.
 ## Run locally
 
 Open `index.html` directly in a browser, or serve the repository root with any static file server.
+
+No build step is required.
 
 ## Conventions
 
