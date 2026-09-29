@@ -750,6 +750,16 @@ h3 {
 }
 
 @media (max-width: 41.99rem) {
+    .hero {
+        background-image: none;
+        background-attachment: scroll;
+    }
+
+    .hero-image {
+        opacity: 1;
+        object-position: center center;
+    }
+
     .place-card img,
     .stay-item img,
     .experience-photo img {
