@@ -2,6 +2,18 @@ const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 const mobileMenu = document.querySelector(".mobile-menu");
 const whatsappMenu = document.querySelector(".whatsapp-menu");
 
+if ("scrollRestoration" in history) {
+    history.scrollRestoration = "manual";
+}
+
+window.addEventListener("pageshow", () => {
+    const navigation = performance.getEntriesByType("navigation")[0];
+
+    if (navigation?.type === "reload" && !window.location.hash) {
+        window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+    }
+});
+
 mobileMenu?.querySelectorAll("a").forEach((link) => {
     link.addEventListener("click", () => {
         mobileMenu.removeAttribute("open");
