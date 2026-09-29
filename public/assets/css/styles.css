@@ -242,6 +242,7 @@ h3 {
     display: grid;
     align-items: end;
     overflow: hidden;
+    clip-path: inset(0);
     isolation: isolate;
     background: var(--forest-dark);
 }
@@ -255,7 +256,10 @@ h3 {
 }
 
 .hero-image {
+    position: fixed;
     z-index: -2;
+    inset: 4.5rem 0 auto;
+    height: calc(100svh - 4.5rem);
     object-fit: cover;
     object-position: center 48%;
     opacity: 1;
@@ -1066,6 +1070,11 @@ h3 {
 
     .hero {
         min-height: min(44rem, calc(100svh - 5rem));
+    }
+
+    .hero-image {
+        inset: 5rem 0 auto;
+        height: calc(100svh - 5rem);
     }
 
     .hero-content {
