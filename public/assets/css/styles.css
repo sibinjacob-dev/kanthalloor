@@ -243,11 +243,7 @@ h3 {
     align-items: end;
     overflow: hidden;
     isolation: isolate;
-    background-image: url("../images/kanthalloor-drone-hero.png");
-    background-position: center 48%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background: var(--forest-dark);
 }
 
 .hero-image,
@@ -262,7 +258,7 @@ h3 {
     z-index: -2;
     object-fit: cover;
     object-position: center 48%;
-    opacity: 0;
+    opacity: 1;
 }
 
 .hero-shade {
@@ -750,13 +746,7 @@ h3 {
 }
 
 @media (max-width: 41.99rem) {
-    .hero {
-        background-image: none;
-        background-attachment: scroll;
-    }
-
     .hero-image {
-        opacity: 1;
         object-position: center center;
     }
 
