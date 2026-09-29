@@ -3,14 +3,18 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Kanthalloor Tourist Guide | Places, Experiences &amp; Stays</title>
-    <meta name="description" content="Explore Kanthalloor and Marayoor in Kerala: orchards, waterfalls, forest experiences, local stays, and practical help for planning your visit.">
+    <title>Kanthalloor Tourist Guide | Places to Visit, Stays &amp; Tours</title>
+    <meta name="description" content="Plan your Kanthalloor trip with local guidance. Discover places to visit, apple orchards, waterfalls, jeep safaris, farm experiences, stays and nearby Marayoor.">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <link rel="canonical" href="https://kanthalloortouristguide.com/">
+    <link rel="alternate" hreflang="en-IN" href="https://kanthalloortouristguide.com/">
+    <link rel="alternate" hreflang="x-default" href="https://kanthalloortouristguide.com/">
     <meta name="theme-color" content="#294b3a">
     <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_IN">
     <meta property="og:site_name" content="Kanthalloor Tourist Guide">
-    <meta property="og:title" content="Kanthalloor Tourist Guide">
-    <meta property="og:description" content="Explore the orchards, waterfalls, forest experiences, and local stays of Kanthalloor and Marayoor, Kerala.">
+    <meta property="og:title" content="Kanthalloor Tourist Guide | Places to Visit, Stays &amp; Tours">
+    <meta property="og:description" content="Discover Kanthalloor's orchards, waterfalls, jeep safaris, farm experiences, local stays and nearby Marayoor.">
     <meta property="og:url" content="https://kanthalloortouristguide.com/">
     <meta property="og:image" content="https://kanthalloortouristguide.com/assets/images/kanthalloor-social-preview.jpg">
     <meta property="og:image:type" content="image/jpeg">
@@ -18,8 +22,8 @@
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="Kanthalloor mountain valley at sunrise with the words Apple blossoms meet the mist">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Kanthalloor Tourist Guide">
-    <meta name="twitter:description" content="Explore the orchards, waterfalls, forest experiences, and local stays of Kanthalloor and Marayoor, Kerala.">
+    <meta name="twitter:title" content="Kanthalloor Tourist Guide | Places to Visit, Stays &amp; Tours">
+    <meta name="twitter:description" content="Discover Kanthalloor's orchards, waterfalls, jeep safaris, farm experiences, local stays and nearby Marayoor.">
     <meta name="twitter:image" content="https://kanthalloortouristguide.com/assets/images/kanthalloor-social-preview.jpg">
     <meta name="twitter:image:alt" content="Kanthalloor mountain valley at sunrise with the words Apple blossoms meet the mist">
     <link rel="icon" href="assets/images/kanthalloor-brand-mark-64.png" type="image/png">
@@ -29,17 +33,68 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "TouristDestination",
-        "name": "Kanthalloor",
-        "description": "A tourism destination in Kerala known for orchards, farms, waterfalls, forests, and village experiences.",
-        "url": "https://kanthalloortouristguide.com/",
-        "image": "https://kanthalloortouristguide.com/assets/images/kanthalloor-drone-hero.webp",
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Kanthalloor",
-            "addressRegion": "Kerala",
-            "addressCountry": "IN"
-        }
+        "@graph": [
+            {
+                "@type": "WebSite",
+                "@id": "https://kanthalloortouristguide.com/#website",
+                "url": "https://kanthalloortouristguide.com/",
+                "name": "Kanthalloor Tourist Guide",
+                "description": "Local travel information for Kanthalloor and Marayoor in Kerala.",
+                "inLanguage": "en-IN",
+                "publisher": { "@id": "https://kanthalloortouristguide.com/#organization" }
+            },
+            {
+                "@type": "Organization",
+                "@id": "https://kanthalloortouristguide.com/#organization",
+                "name": "Kanthalloor Tourist Guide",
+                "url": "https://kanthalloortouristguide.com/",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://kanthalloortouristguide.com/assets/images/kanthalloor-brand-mark-128.webp",
+                    "width": 128,
+                    "height": 128
+                },
+                "email": "bookings@kanthalloortouristguide.com",
+                "telephone": ["+919778132603", "+918075148609"],
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Marayur",
+                    "addressRegion": "Kerala",
+                    "addressCountry": "IN"
+                },
+                "areaServed": { "@id": "https://kanthalloortouristguide.com/#destination" }
+            },
+            {
+                "@type": "TouristDestination",
+                "@id": "https://kanthalloortouristguide.com/#destination",
+                "name": "Kanthalloor",
+                "description": "A tourism destination in Kerala known for apple orchards, farms, waterfalls, forests, jeep safaris and village experiences.",
+                "url": "https://kanthalloortouristguide.com/",
+                "image": "https://kanthalloortouristguide.com/assets/images/kanthalloor-drone-hero.webp",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Kanthalloor",
+                    "addressRegion": "Kerala",
+                    "addressCountry": "IN"
+                }
+            },
+            {
+                "@type": "WebPage",
+                "@id": "https://kanthalloortouristguide.com/#webpage",
+                "url": "https://kanthalloortouristguide.com/",
+                "name": "Kanthalloor Tourist Guide | Places to Visit, Stays & Tours",
+                "description": "Plan your Kanthalloor trip with local guidance. Discover places to visit, apple orchards, waterfalls, jeep safaris, farm experiences, stays and nearby Marayoor.",
+                "inLanguage": "en-IN",
+                "isPartOf": { "@id": "https://kanthalloortouristguide.com/#website" },
+                "about": { "@id": "https://kanthalloortouristguide.com/#destination" },
+                "primaryImageOfPage": {
+                    "@type": "ImageObject",
+                    "url": "https://kanthalloortouristguide.com/assets/images/kanthalloor-drone-hero.webp",
+                    "width": 1672,
+                    "height": 941
+                }
+            }
+        ]
     }
     </script>
 </head>
