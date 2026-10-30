@@ -1,6 +1,46 @@
 # SEO audit — Kanthalloor Tours & Stays
 
-Audit updated: 2026-10-14
+Audit updated: 2026-10-30
+
+## 2026-10-30 evidence-based audit and implementation addendum
+
+Scope: all production URLs, mobile and desktop readiness, technical/on-page/content/local-language SEO, and the requested competitor page. Search Console and analytics interfaces were unavailable. The supplied historical counts (2 indexed, 4 discovered but not indexed, 3 redirects) are context, not independently verified current coverage. Live response checks were performed on 2026-10-30.
+
+### Classified findings
+
+| Issue | Category | Evidence | Severity | Confidence | Why it matters | Recommendation / status |
+| --- | --- | --- | --- | --- | --- | --- |
+| Four historically discovered URLs lack current URL Inspection evidence | Crawlability & Indexation | User-supplied historical count; all six sitemap URLs returned live 200 and local pages use `index, follow` plus self-canonicals | High | Medium | Google may decline URLs for quality, duplication, canonical selection or processing reasons | Technical signals revalidated; inspect each URL after deployment and record Google's selected canonical and exclusion reason |
+| Previous redirect count lacks source URLs | Crawlability & Indexation | HTTP and `www` each produced one 301 hop to the canonical HTTPS host; no sitemap URL redirected | Low | High | Host redirects are healthy; redirected sitemap URLs would not be | No code fix; confirm the three Search Console examples are host/protocol variants |
+| Places content needed stronger everyday planning answers | Content Quality & E-E-A-T | Competitor covers explicit one-day/safari intent; our page had attraction depth but fewer concise itinerary/Malayalam answers | Medium | High | Practical answers satisfy trip planning better than repeated keywords | Implemented one-/two-day frameworks, Kerala-city context and bilingual FAQs without copying |
+| Language signals were inconsistent | On-Page Optimization | Homepage declared `en-IN`/`x-default`; other indexable pages did not | Low | High | Consistency clarifies the English-default architecture | Added self-referencing English/default alternatives; did not claim a nonexistent Malayalam URL |
+| No complete Malayalam landing page exists | Content Quality & E-E-A-T | Only the Places FAQ currently has maintained Malayalam | Medium | High | Thin translations add low-value URLs and maintenance risk | Do not launch `/ml/` until demand and human-reviewed translations justify it |
+| Field Core Web Vitals were unavailable | Technical Foundations | PageSpeed API returned 429; no Search Console CWV or CrUX export was available | Medium | High | Lab assumptions cannot replace 75th-percentile LCP, INP and CLS | Check Search Console CWV/CrUX after deployment and keep field/lab results separate |
+| Authority evidence is incomplete | Authority & Trust Signals | Contact methods/privacy guidance exist; verified profiles and third-party citations were unavailable | Medium | High | Verifiable local identity supports trust and discovery | Add only verified profiles/citations; never fabricate reviews, credentials or `sameAs` links |
+
+### Competitor comparison
+
+The competitor page exposes many named sights, one-day/jeep-safari intent, contact details and booking prompts, but also repeats large keyword blocks. This site now differentiates with clearer geography, permission/weather caveats, realistic itineraries, bilingual planning answers, accessibility questions and requirement-rich WhatsApp prompts. The next useful opportunity is first-hand seasonal information and verified route/access updates—not competitor-style repetition.
+
+### Prioritized action plan
+
+1. **Critical blockers:** none directly observed. Verify every intended sitemap URL remains 200, indexable and self-canonical.
+2. **High impact:** deploy the current changes, then inspect the four historical exclusions in Search Console. Verify the deployed canonical/HTML and record the exact exclusion.
+3. **Quick wins:** submit the updated sitemap and compare queries with `SEO_KEYWORD_STRATEGY.md`. Verify the processed date and URL Inspection timestamps.
+4. **Longer term:** create human-reviewed Malayalam equivalents only where demand and maintenance justify them; publish original seasonal updates and verified profiles.
+
+### SEO Health Index (internal readiness rubric)
+
+| Category | Score | Weight | Weighted contribution |
+| --- | ---: | ---: | ---: |
+| Crawlability & Indexation | 82 | 30 | 24.6 |
+| Technical Foundations | 80 | 25 | 20.0 |
+| On-Page Optimization | 92 | 20 | 18.4 |
+| Content Quality & E-E-A-T | 84 | 15 | 12.6 |
+| Authority & Trust Signals | 70 | 10 | 7.0 |
+| **Overall** |  |  | **83 / 100 (Good)** |
+
+This subjective score measures audited readiness, not rankings. It is limited by unverified Search Console exclusions, unavailable field CWV data, incomplete authority evidence and no maintained full Malayalam experience. Competition and algorithm changes are not scored.
 
 ## Current public architecture
 
