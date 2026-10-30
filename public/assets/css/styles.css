@@ -57,6 +57,18 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+[lang="ml"] {
+    font-family: var(--sans);
+    line-height: 1.75;
+}
+
+h3[lang="ml"] {
+    margin-top: 1.35rem;
+    font-family: var(--sans);
+    font-size: 1.05rem;
+    line-height: 1.55;
+}
+
 img {
     display: block;
     max-width: 100%;

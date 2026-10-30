@@ -1,0 +1,23 @@
+# Kanthalloor SEO Keyword Strategy
+
+Updated: 2026-10-30
+
+This map separates page intent so pages do not compete for the same query. Candidate terms come from the brief, visible search-result language, the competitor review, and services actually described on the site. No search volume or keyword-difficulty figures are claimed. Search Console query data was unavailable.
+
+| Existing page URL | Primary keyword theme | Relevant secondary keywords | Spelling variants considered | Malayalam / Manglish opportunities | Search intent | Changes implemented | Further recommended actions |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| `/` | Kanthalloor tourism and trip planning | Kanthalloor Kerala, Kanthalloor Munnar, travel guide, tour, stays, sightseeing | Kanthaloor, Kanthallur, Kanthalur, Kandalloor, Kandallur; use sparingly in useful prose | കാന്തല്ലൂർ യാത്ര; Kanthalloor yathra; Kanthalloor trip Malayalam | Broad destination discovery leading to an enquiry | Preserved service overview, descriptive title/H1, internal links, canonical and English alternatives | Use Search Console data to decide whether a full `/ml/` hub is justified; never create spelling-doorway pages |
+| `/places-to-visit-in-kanthalloor.html` | Kanthalloor tourist places | places to visit, attractions, sightseeing, tourist spots, waterfalls, apple farm, things to do, one-day trip, two-day trip | Natural variants only when readable | കാന്തല്ലൂർ ടൂറിസ്റ്റ് സ്ഥലങ്ങൾ; കാന്തല്ലൂർ കാണേണ്ട സ്ഥലങ്ങൾ; Kanthalloor kananulla sthalangal | Sightseeing research and route planning | Added one-/two-day frameworks, Kerala-city context, bilingual FAQs, FAQ structured data and internal links | Add route facts only from current authoritative sources; monitor Malayalam queries |
+| `/kanthalloortour-packages.html` | Kanthalloor tour packages | family, couples, group, weekend, custom itinerary, one-day and two-day tours | Kanthaloor tour package; Kanthallur tour, only where natural | കാന്തല്ലൂർ ടൂർ പാക്കേജ്; Kanthalloor weekend yathra | Commercial investigation without promising availability | Kept adaptable examples, enquiry requirements, Service schema, canonical and English alternatives | Add genuine inclusions/exclusions only after operator confirmation; measure enquiry quality by landing page |
+| `/kanthalloormudhouse-stays.html` | Kanthalloor stays | resorts, homestay, cottages, hotels, family, budget, honeymoon, farm stay, mud house | Kanthaloor stay; Kanthallur resorts only if query data supports them | കാന്തല്ലൂർ താമസം; കാന്തല്ലൂർ റിസോർട്ടുകൾ | Accommodation comparison and availability enquiry | Maintained stay comparison, suitability guidance, availability caveats, canonical and English alternatives | Add verified property facts, policies and original photos; avoid unsupported inventory or prices |
+| `/kanthalloor-experiences.html` | Things to do in Kanthalloor | apple farm, fruit farms, jeep safari, waterfalls, viewpoints, village activities | Kanthaloor safari; Kandalloor jeep safari only if useful | കാന്തല്ലൂർ ജീപ്പ് സഫാരി; Kanthalloor safari Malayalam | Activity discovery and enquiry | Preserved distinct activities, caveats, internal CTA and canonical; added English alternatives | Add first-hand seasonal updates instead of generic activity pages |
+| `/contact.html` | Kanthalloor travel enquiry | WhatsApp, sightseeing, stay and transport enquiry | No variant targeting; brand/contact intent only | Test a Malayalam WhatsApp prompt if real demand supports it | Direct conversion and trust | Preserved phone, WhatsApp, email, privacy note and self-canonical; added English alternatives | Track calls/WhatsApp starts with privacy-conscious events; add only verified business profiles |
+| `/photo-credits.html` | Photo attribution | image licences and sources | None | None | Source transparency, not acquisition | Retained `noindex, follow` and sitemap exclusion | Keep reachable and update with imagery changes |
+
+## Language strategy
+
+A dedicated `/ml/` section is worthwhile only when complete, human-reviewed Malayalam pages can match the English pages' practical value. Until then, the bilingual FAQ is safer than thin translations. Do not advertise `ml-IN` alternates until corresponding translated URLs exist. Genuine pairs need reciprocal `hreflang`, self-canonicals, equivalent core information, and natural titles/descriptions.
+
+## Measurement plan
+
+Export at least three months of Search Console queries and landing pages, then group impressions by destination, places, stays, packages, activities, spelling variant, Malayalam and Manglish. Use impressions, clicks, CTR, position and enquiry quality to revise this map. Search volume and difficulty must come from an identified source, not autocomplete or competitor repetition.

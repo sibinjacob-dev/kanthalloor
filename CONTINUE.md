@@ -2,7 +2,7 @@
 
 ## Current status
 
-The document-led whole-site content and conversion redesign is complete and validated locally. The mistakenly prioritised standalone trip planner remains fully removed.
+The document-led redesign and 2026-10-30 SEO implementation are complete locally. The standalone trip planner remains fully removed. Production deployment and Search Console follow-up remain separate actions.
 
 ## Completed in the current redesign pass
 
@@ -18,7 +18,7 @@ The document-led whole-site content and conversion redesign is complete and vali
 
 ## Exact next action
 
-No implementation step remains in the current plan. Review the accumulated diff and deploy only if the user explicitly requests production deployment.
+Run final validation, review the accumulated diff and deploy only if the user explicitly requests production deployment. After deployment, submit the sitemap and inspect the four historically excluded URLs in Search Console.
 
 ## Validation state
 
