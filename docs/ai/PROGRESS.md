@@ -2,7 +2,7 @@
 
 ## 2026-10-30
 
-- Loaded and followed `C:\Users\Asus\.agents\skills\seo-audit\SKILL.md`.
+- Loaded and followed the requested `seo-audit` skill.
 - Audited live redirects, robots.txt, sitemap.xml and intended production URLs.
 - Compared the Places page with the requested competitor without copying text or inventing metrics.
 - Preserved and completed the one-/two-day itinerary and bilingual FAQ work.
@@ -17,7 +17,7 @@
 - Removed all planner-specific implementation while preserving earlier approved site work.
 - Completed the first content pass on the homepage.
 - Completed the content expansion of the Packages page.
-- Created `PLAN.md` and `CONTINUE.md` so work can resume from an exact point.
+- Created the plan and continuation records so work can resume from an exact point.
 - Expanded Experiences with seasonal agriculture, guided nature, village livelihoods, Marayoor food and heritage, and forest-authority caveats.
 - Reorganised Places with visible Kanthalloor, Marayoor/Kovilkadavu and Chinnar geographic labels and practical access guidance.
 - Added stay suitability guidance and a more useful contextual stay enquiry.

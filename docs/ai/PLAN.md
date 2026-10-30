@@ -10,8 +10,8 @@ Completed locally on 14 October 2026. Production deployment remains a separate, 
 
 ## Source of truth
 
-- User request in the attached pasted prompt.
-- `C:\Users\Asus\Downloads\Kanthalloor_Lead_Generation_Tour_Planner_Codex_Spec.docx`.
+- User-approved redesign brief.
+- Supplied lead-generation specification (not stored in this repository).
 - Existing verified site content and URLs.
 
 ## Non-negotiable constraints
